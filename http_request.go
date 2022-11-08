@@ -3,13 +3,13 @@ package baidulogin
 import (
 	"bytes"
 	"fmt"
-	"github.com/iikira/Baidu-Login/bdcrypto"
-	"github.com/iikira/BaiduPCS-Go/requester"
-	"github.com/json-iterator/go"
 	"net/http/cookiejar"
 	"regexp"
 	"strconv"
 	"time"
+
+	"github.com/felixonmars/BaiduPCS-Go/requester"
+	"github.com/iikira/Baidu-Login/bdcrypto"
 )
 
 // BaiduClient 记录登录百度所使用的信息

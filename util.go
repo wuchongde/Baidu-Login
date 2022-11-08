@@ -2,12 +2,13 @@ package baidulogin
 
 import (
 	"fmt"
-	"github.com/astaxie/beego/session"
-	"github.com/iikira/BaiduPCS-Go/pcsutil"
 	"net/http/cookiejar"
 	"net/url"
 	"regexp"
 	"strings"
+
+	"github.com/astaxie/beego/session"
+	"github.com/felixonmars/BaiduPCS-Go/pcsutil"
 )
 
 // registerBaiduClient 为 sess 如果没有 BaiduClient , 就添加

@@ -2,14 +2,14 @@ package baidulogin
 
 import (
 	"fmt"
-	"github.com/GeertJohan/go.rice"
-	"github.com/astaxie/beego/session"
-	"github.com/iikira/BaiduPCS-Go/pcsutil"
-	"github.com/json-iterator/go"
 	"log"
 	"net"
 	"net/http"
 	"net/url"
+
+	"github.com/GeertJohan/go.rice"
+	"github.com/astaxie/beego/session"
+	"github.com/felixonmars/BaiduPCS-Go/pcsutil"
 )
 
 // StartServer 启动 http 服务
