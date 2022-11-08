@@ -7,9 +7,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/GeertJohan/go.rice"
 	"github.com/astaxie/beego/session"
-	"github.com/felixonmars/BaiduPCS-Go/pcsutil"
+	"github.com/wuchongde/BaiduPCS-Go/pcsutil"
 )
 
 // StartServer 启动 http 服务

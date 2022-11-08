@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/astaxie/beego/session"
-	"github.com/felixonmars/BaiduPCS-Go/pcsutil"
+	"github.com/wuchongde/BaiduPCS-Go/pcsutil"
 )
 
 // registerBaiduClient 为 sess 如果没有 BaiduClient , 就添加

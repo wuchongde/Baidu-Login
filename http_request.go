@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/felixonmars/BaiduPCS-Go/requester"
 	"github.com/iikira/Baidu-Login/bdcrypto"
+	"github.com/wuchongde/BaiduPCS-Go/requester"
 )
 
 // BaiduClient 记录登录百度所使用的信息
