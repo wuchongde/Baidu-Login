@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/iikira/Baidu-Login/bdcrypto"
+	"github.com/wuchongde/Baidu-Login/bdcrypto"
 	"github.com/wuchongde/BaiduPCS-Go/requester"
 )
 
