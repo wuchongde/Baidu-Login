@@ -4,6 +4,8 @@ import (
 	"flag"
 	"fmt"
 	"os"
+
+	baidulogin "github.com/wuchongde/Baidu-Login"
 )
 
 var (

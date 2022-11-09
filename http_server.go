@@ -7,7 +7,9 @@ import (
 	"net/http"
 	"net/url"
 
+	rice "github.com/GeertJohan/go.rice"
 	"github.com/astaxie/beego/session"
+	jsoniter "github.com/json-iterator/go"
 	"github.com/wuchongde/BaiduPCS-Go/pcsutil"
 )
 

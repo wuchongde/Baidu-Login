@@ -8,6 +8,7 @@ import (
 	"strconv"
 	"time"
 
+	jsoniter "github.com/json-iterator/go"
 	"github.com/wuchongde/Baidu-Login/bdcrypto"
 	"github.com/wuchongde/BaiduPCS-Go/requester"
 )
